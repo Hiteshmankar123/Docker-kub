@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') { 
             steps {  
-              echo "mav"       
+              echo "mvn successful"       
             }
         }
         stage('Test') { 
